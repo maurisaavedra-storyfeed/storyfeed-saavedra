@@ -1,0 +1,70 @@
+
+// -------------------------------- Center Menu Components --------------------------------- //
+
+.menu-component {
+	text-align: center !important;
+	font-size: 100% !important;
+}
+
+
+
+// -------------------------------- Custom Analytics Information --------------------------------- //
+
+
+.post-admin{
+	display: flex;
+	align-items: center;
+	.post-admin-actions, .post-admin-stats{
+		border-radius: 0px;
+		margin-left: 10px;
+		margin-right: 3px;
+	}
+}
+
+
+
+
+// -------------------------------- Custom Post Content --------------------------------- //
+
+
+.post-heading {
+	margin-bottom: 3px;
+	line-height: 1.2;
+	.post-title {
+		display: inline;
+		margin-bottom: 0px;
+	}
+	.post-domain {
+		color: lightest-grey;
+		font-weight: normal;
+	}
+}
+
+.post-title {
+	font-size: 120% !important;
+	color: black;
+}
+
+
+.post-meta {
+	font-size: 13px;
+	color: light grey;
+	line-height: 1.5;
+}
+
+.postMeta-module {
+	margin-right: 20px;
+}
+
+.points {
+	margin-right: 4px;
+}
+
+.unit {
+	margin-right: 4px;
+}
+
+.post-time {
+    margin-right: 4px;
+}
+

@@ -1,2 +1,0 @@
-# storyfeed-saavedra
-Storyfeed Saavedra
