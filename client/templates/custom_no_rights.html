@@ -1,0 +1,9 @@
+<template name="custom_no_rights">
+  <div class="grid-small grid-block dialog no-rights">
+    {{#if link}}
+      <a href="{{link}}">{{errorMessage}}</a>
+    {{else}}
+      {{errorMessage}} <a href="http://storyfeed.co/request-invite.html" target="_blank">here</a>
+    {{/if}}
+  </div>
+</template>

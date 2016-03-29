@@ -1,0 +1,13 @@
+<template name="custom_post_submit">
+  <div class="form-page post-submit">
+       <h2 class="custom-info-banner">
+         You can compose your story in your favorite platform and then share the link here.<br/> 
+         Or you can compose the story directly here, it's up to you.<br/>
+         Remember to categorize your story in the most specific and correct way possible,<br/>
+         stories not correctly categorized get more downvotes. Good Luck!
+       </h2>
+    <div class="grid grid-module">
+      {{> quickForm collection="Posts" id="submitPostForm" template="bootstrap3-horizontal" input-col-class="controls" type="method" meteormethod="submitPost" fields=postFields}}
+    </div>
+  </div>
+</template>

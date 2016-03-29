@@ -1,14 +1,106 @@
+// -------------------------------- Custom Hero Banner Components --------------------------------- //
+
+
+.custom-hero-banner {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: 1px solid #ccc;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-hero-banner {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
+
+
+// -------------------------------- Custom Info Banner located in share a story Components --------------------------------- //
+
+
+.custom-info-banner {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  border: 1px solid #ccc;
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_info.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-info-banner {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
 
 // -------------------------------- Center Menu Components --------------------------------- //
 
 .menu-component {
-	text-align: center !important;
+	text-align: left !important;
 	font-size: 100% !important;
 }
 
 
 
-// -------------------------------- Custom Analytics Information --------------------------------- //
+// -------------------------------- Custom On-site Analytics Information --------------------------------- //
 
 
 .post-admin{
@@ -68,3 +160,23 @@
     margin-right: 4px;
 }
 
+
+
+// -------------------------------- Custom app loader --------------------------------- //
+
+.app-loading{
+  height: 100vh;
+}
+.loader{
+  min-height: 70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div{
+    background:url("http://storyfeed.co/system_images/loading.svg") center center no-repeat;
+    width: 24px;
+    height: 30px;
+    margin: 10px 0;    
+  }
+}
