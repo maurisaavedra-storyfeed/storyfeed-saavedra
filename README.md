@@ -1,2 +1,2 @@
-# storyfeed branch for making new features
+# Storyfeed V1.1
 Storyfeed Saavedra
