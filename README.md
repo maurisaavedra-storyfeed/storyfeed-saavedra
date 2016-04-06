@@ -1,2 +1,2 @@
-# Storyfeed V1.3
+# Storyfeed V1.4
 Storyfeed Saavedra
