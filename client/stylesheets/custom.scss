@@ -98,6 +98,29 @@
 }
 
 
+// -------------------------------- Custom Menu Content --------------------------------- //
+
+
+// ---- Top Stories - New Stories -- //
+.menu-item-label-text {
+  font-weight: normal !important;
+}
+// --- end -- //
+
+
+// ---- No notifications -- //
+.menu-label {
+  font-weight: normal !important;
+}
+// --- end -- //
+
+
+
+// ---- Share a Story -- //
+.submit {
+  font-weight: normal !important;
+}
+// --- end -- //
 
 
 // -------------------------------- Custom Post Content --------------------------------- //
@@ -117,10 +140,19 @@
 }
 
 .post-title {
-	font-size: 120% !important;
+	font-size: 125% !important;
 	color: black;
+  font-weight: 300 !important;
 }
 
+.post-categories {
+  margin-left: 10px;
+}
+
+.post-category {
+  font-size: 65% !important;
+  margin-bottom: 5px;
+}
 
 .post-meta {
 	font-size: 13px;
@@ -129,7 +161,11 @@
 }
 
 .postMeta-module {
-	margin-right: 20px;
+  margin-right: 10px;
+}
+
+.post-admin-stats {
+  font-size: 11px;
 }
 
 .points {
@@ -141,7 +177,29 @@
 }
 
 .post-time {
-    margin-right: 4px;
+  margin-right: 4px;
+}
+
+.comments-link {
+  font-weight: normal !important;
+}
+
+
+// -------------------------------- Category Titles ans Description --------------------------------- //
+
+
+.category-parents {
+  font-size: 60% !important;
+}
+
+
+.category-description {
+  font-size: 130% !important;
+}
+
+
+.main-category-title {
+  font-size: 60% !important;
 }
 
 
