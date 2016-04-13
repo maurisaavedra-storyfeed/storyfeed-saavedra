@@ -10,10 +10,13 @@
 
 <!-- mobile version, check scss for changes -->
 
-  <div class="custom-mobile-post-share {{moduleClass}}">
+<div class="custom-mobile-post-share {{moduleClass}}">
+    <a href="#" class="share-link action" title="{{_ 'share'}}">
+      {{{icon "share"}}}
+    </a>
     <div class="custom-mobile-share-options">
       <a class="custom-mobile-share-option-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://www.storyfeed.co{{post}}" target="_blank">{{{icon "facebook"}}}</a>
       <a class="custom-mobile-share-option-twitter" href="//twitter.com/intent/tweet?text=Please help me with a vote http://www.storyfeed.co{{post}}&{{viaTwitter}}" target="_blank">{{{icon "twitter"}}}</a>
     </div>
-  </div>
+</div>
 </template>
