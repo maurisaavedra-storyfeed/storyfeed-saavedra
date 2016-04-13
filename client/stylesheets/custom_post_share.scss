@@ -61,19 +61,22 @@
 
 
 
+
 .custom-mobile-post-share {
-   position: relative;
-   color: #b3c1c6;
-   order: 8;
-   .icon-share{
+  position: relative;
+  color: #b3c1c6;
+  order: 8;
+  display: none;
+  .icon-share{
     &:before{
-      font-size: 20px;
+      font-size: 24px;
     }
   }
   .posts-grid & {
     display: none;
   }
 }
+
 @media screen and (min-width: 600px) {
   .custom-mobile-post-share {
     visibility: hidden;
@@ -86,7 +89,7 @@
   z-index: 0;
   background: none;
   width: 50px;
-  padding: 20px;
+  padding: 0px;
   line-height: 1;
   .icon {
     color: white;
@@ -94,14 +97,17 @@
   a {
     display: relative;
     line-height: 1;
-    width: 15px;
-    height: 15px;
-    line-height: 30px;
+    width: 20px;
+    height: 20px;
+    line-height: 34px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-right: 4px;
+    &:last-child{
+      margin-right: 0px;
+    }
   }
 }
 
@@ -111,5 +117,3 @@
 .custom-mobile-share-option-facebook {
   background-color: rgb(59, 89, 152);
 }
-
-
