@@ -11,7 +11,7 @@
   padding: 10px;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_san_francisco_available.jpg');
+  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_world.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -214,9 +214,9 @@
   align-items: center;
   justify-content: center;
   div{
-    background:url("http://storyfeed.co/system_images/loading.gif") center center no-repeat;
-    width: 24px;
-    height: 30px;
+    background:url("http://storyfeed.co/system_images/loading-storyfeed.gif") center center no-repeat;
+    width: 40px;
+    height: 35px;
     margin: 10px 0;    
   }
 }

@@ -6,7 +6,7 @@ Meteor.startup(function () {
     sourceLink: function () {
       return !!this.url ? this.url : Posts.getPageUrl(this);
     },
-    post: function () {
+    postUrl: function () {
       return Posts.getPageUrl(this);
     },
     viaTwitter: function () {
