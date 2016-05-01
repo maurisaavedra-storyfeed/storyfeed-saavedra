@@ -1,7 +1,9 @@
 <template name="hello">
+  <div id="hideMsg">
   <h2 class="custom-hero-banner">
-  <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
-   This is a community of people who love to share and discover stories.<br/>
-Have a great story? Share it with the entire world!
+   {{_ "welcome"}} {{name}}! <br/>
+   {{_ "this_is_a_community_of_people_who_love_to_share_and_discover_stories"}}<br/>
+   {{_ "have_a_great_story_share_it_with_the_entire_world"}}
    </h2>
+   </div>
 </template>

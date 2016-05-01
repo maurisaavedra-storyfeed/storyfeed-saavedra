@@ -1,5 +1,11 @@
-// -------------------------------- Custom Hero Banner Components --------------------------------- //
+// -------------------------------- Logo Storyfeed --------------------------------- //
 
+
+.logo-image {
+  width: 170px !important;
+}
+
+// -------------------------------- Custom Hero Banner Components --------------------------------- //
 
 .custom-hero-banner {
   text-align: center;
@@ -28,22 +34,8 @@
 }
 
 
-#close {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-}
-#close:hover {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-    color:#fff;
-}
 
-
-// -------------------------------- Custom Info Banner located in share a story Components --------------------------------- //
+// -------------------------------- Custom Info Banner located in post a story Components --------------------------------- //
 
 
 .custom-info-banner {
@@ -73,7 +65,7 @@
 }
 
 
-// -------------------------------- Center Menu Components --------------------------------- //
+// -------------------------------- Menu Components --------------------------------- //
 
 .menu-component {
 	text-align: left !important;
@@ -121,6 +113,44 @@
 // --- end -- //
 
 
+
+// ---- Register/Sign in -- //
+.account-link {
+  font-weight: normal !important;
+}
+// --- end -- //
+
+
+
+
+// -------------------------------- Post Vote --------------------------------- //
+
+.post-vote {
+    .vote-actions{
+      border: 1px solid #dfdbdb;
+      border-radius: 5px;
+    }
+    .vote-action{
+      font-size: 100%;
+      font-weight: normal;
+    }
+    .downvote-link{
+      border-top: none;
+    }
+}
+
+.points {
+   margin: auto;
+   padding: 6.5px;
+}
+
+.unit {
+   margin-right: 4px;
+}
+
+
+
+
 // -------------------------------- Custom Post Content --------------------------------- //
 
 
@@ -138,49 +168,42 @@
 }
 
 .post-title {
-	font-size: 125% !important;
-	color: black;
-  font-weight: 300 !important;
+	 font-size: 125% !important;
+	 color: black;
+   font-weight: 300 !important;
 }
 
 .post-categories {
-  margin-left: 10px;
+   margin-left: 10px;
 }
 
 .post-category {
-  font-size: 65% !important;
-  margin-bottom: 5px;
+   font-size: 65% !important;
+   margin-bottom: 5px;
 }
 
 .post-meta {
-	font-size: 13px;
-	color: light grey;
-	line-height: 1.5;
+	 font-size: 13px;
+	 color: light grey;
+	 line-height: 1.5;
 }
 
 .postMeta-module {
-  margin-right: 10px;
+   margin-right: 10px;
 }
 
 .post-admin-stats {
-  font-size: 11px;
-}
-
-.points {
-	margin-right: 4px;
-}
-
-.unit {
-	margin-right: 4px;
+   font-size: 11px;
 }
 
 .post-time {
-  margin-right: 4px;
+   margin-right: 4px;
 }
 
 .comments-link {
-  font-weight: normal !important;
+   font-weight: normal !important;
 }
+
 
 
 // -------------------------------- Category Titles ans Description --------------------------------- //
@@ -192,7 +215,7 @@
 
 
 .category-description {
-  font-size: 130% !important;
+  font-size: 120% !important;
 }
 
 
@@ -216,7 +239,7 @@
   div{
     background:url("http://storyfeed.co/system_images/loading-storyfeed.gif") center center no-repeat;
     width: 40px;
-    height: 35px;
+    height: 40px;
     margin: 10px 0;    
   }
 }

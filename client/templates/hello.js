@@ -7,3 +7,11 @@ Template.hello.helpers({
     }
   }
 });
+var sec = 15
+var timer = setInterval(function() { 
+   $('#hideMsg span').text(sec--);
+   if (sec == -1) {
+      $('#hideMsg').slideUp('slow');
+      clearInterval(timer);
+   } 
+}, 1000);

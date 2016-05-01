@@ -1,12 +1,13 @@
 <template name="custom_post_submit">
   <div class="form-page post-submit">
        <h2 class="custom-info-banner">
-         Stories come from anywhere.<br/>
+         <script type='text/javascript' src='http://www.geolify.com/geocontent.php?id=13810'></script>
+         {{_ "stories_come_from_anywhere"}}<br/>
          <br/>
-         Remember to categorize your story in the most specific and correct way possible, <br/>
-         the country or city, the source and the topic of the story.<br/>
+         {{_ "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible"}}<br/>
+         {{_ "country_city_source_and_topic_of_the_story"}}<br/>
          <br/>
-         Stories correctly categorized get more upvotes. Good Luck!
+         {{_ "stories_correctly_categorized_get_more_upvotes"}}
        </h2>
     <div class="grid grid-module">
       {{> quickForm collection="Posts" id="submitPostForm" template="bootstrap3-horizontal" input-col-class="controls" type="method" meteormethod="submitPost" fields=postFields}}

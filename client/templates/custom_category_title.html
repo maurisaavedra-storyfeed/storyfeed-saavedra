@@ -1,0 +1,16 @@
+<template name="custom_category_title">
+  {{#if categories}}
+    <div class="category-heading-wrapper post-list-title">
+      {{#each categories}}
+        <div class="category-heading">
+          {{#if description}}
+            <h3 class="category-description">{{description}}</h3>
+          {{/if}}
+          {{#if image}}
+            <img class="category-image" src="{{image}}" alt=""/>
+          {{/if}}  
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+</template>

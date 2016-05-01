@@ -3,13 +3,39 @@
   "best": "All Time Best",
   "new" : "New Stories",
   "post" : "Share a Story",
-  "body" : "Story",
+  "body" : "Summary",
   "url" : "Link to the Story",
-  "sorry_you_dont_have_permissions_to_add_new_items" : "During the first months after launch only invited people can comment and share stories. Ask someone to invite you or request an invitation ",
+  "submit" : "Submit",
+  "password" : "Password",
+  "sign_in" : "Register/Sign In",
+  "sign_in_" : "Sign in!",
+  "you_have_been_logged_out" : "You have been logged out.",
+  "submitted_posts" : "Stories Shared",
+  "upvoted_posts" : "Upvoted Stories",
+  "downvoted_posts" : "Downvoted Stories",
 
 
-  "you_ve_just_been_invited" : "You've just been invited.",
-  "start_posting" : "Start sharing your stories!",
+
+  "discuss_story" : "Discuss",
+  
+  "share_with_friends_so_help_you_vote" : "Share with your friends so they can help you vote!",
+
+  "share_post" : "Share:",
+
+  //custom_post_submit.hmtl//
+
+  "stories_come_from_anywhere" : "Stories come from anywhere.",
+  "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible" : "Remember to categorize your story in the most specific and correct way possible,",
+  "country_city_source_and_topic_of_the_story" : "the country or city, the source and the topic of the story.",
+  "stories_correctly_categorized_get_more_upvotes" : "Stories correctly categorized get more upvotes. Good Luck!",
+   
+   //hello.hmtl//
+
+  "welcome" : "Welcome ",
+  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "This is a community of people who love to share and discover stories.",
+  "have_a_great_story_share_it_with_the_entire_world" : "Have a great story? Share it with the entire world!",
+  
+
 
   "telescope_has_been_updated" : "The system has been updated.",
 
