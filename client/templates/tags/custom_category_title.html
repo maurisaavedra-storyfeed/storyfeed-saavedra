@@ -1,0 +1,28 @@
+<template name="custom_category_title">
+   {{#if categories}}
+    <div class="category-heading-wrapper post-list-title">
+      {{#each categories}}
+        <div class="category-heading">
+          <div class="category-title">
+            {{#with categoryParents}}
+              <div class="category-parents">
+                {{#each this}}
+                  <a href="{{this.getUrl}}">{{title}}</a> {{{icon "next"}}}
+                {{/each}}
+              </div>
+            {{/with}}
+            <h2 class="category-parents-title">{{title}}</h2>
+          </div>
+          {{#if description}}
+            <h2 class="main-category-title">{{title}}</h2>
+            <h3 class="category-description">{{description}}</h3>
+          {{/if}}
+          {{#if image}}
+            <img class="category-image" src="{{image}}" alt=""/>
+          {{/if}}  
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+</template>
+

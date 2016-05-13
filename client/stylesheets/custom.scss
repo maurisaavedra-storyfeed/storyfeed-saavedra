@@ -1,10 +1,21 @@
-// -------------------------------- Custom Hero Banner Components --------------------------------- //
+// -------------------------------- Logo & Body Storyfeed --------------------------------- //
 
+
+.logo-image {
+  width: 170px !important;
+}
+
+.body {
+  background:#eee;
+  font-size: 13px !important;
+}
+
+// -------------------------------- Custom Hero Banner Components --------------------------------- //
 
 .custom-hero-banner {
   text-align: center;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 500;
   color: black;
   border: 0px solid #ccc;
   display: block;
@@ -28,28 +39,14 @@
 }
 
 
-#close {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-}
-#close:hover {
-    float:right;
-    display:inline-block;
-    padding:2px 5px;
-    background:#ccc;
-    color:#fff;
-}
 
-
-// -------------------------------- Custom Info Banner located in share a story Components --------------------------------- //
+// -------------------------------- Custom Info Banner located in post a story Components --------------------------------- //
 
 
 .custom-info-banner {
   text-align: left;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 500;
   color: black;
   border: 0px solid #ccc;
   display: block;
@@ -72,13 +69,6 @@
   }
 }
 
-
-// -------------------------------- Center Menu Components --------------------------------- //
-
-.menu-component {
-	text-align: left !important;
-	font-size: 100% !important;
-}
 
 
 
@@ -121,7 +111,52 @@
 // --- end -- //
 
 
-// -------------------------------- Custom Post Content --------------------------------- //
+
+// ---- Register/Sign in -- //
+.account-link {
+  font-weight: normal !important;
+}
+// --- end -- //
+
+
+
+
+// -------------------------------- Post Vote in Posts Page--------------------------------- //
+
+.post-vote {
+    .vote-actions{
+      border: 1px solid #dfdbdb;
+      border-radius: 5px;
+    }
+    .vote-action{
+      font-size: 9px !important;
+      font-weight: normal;
+      padding-left: auto !important;
+      padding-right: auto !important;
+      margin-top: 0px;
+      margin-right: auto !important;
+      margin-bottom: 0px;
+      margin-left: auto !important;
+    }
+    .downvote-link{
+      border-top: none;
+    }
+}
+
+.points {
+   font-size: 10px !important;
+   margin: auto;
+   padding: 4px;
+}
+
+.unit {
+   margin-right: 4px;
+}
+
+
+
+
+// -------------------------------- Custom Post Content in posts page --------------------------------- //
 
 
 .post-heading {
@@ -138,66 +173,60 @@
 }
 
 .post-title {
-	font-size: 125% !important;
-	color: black;
-  font-weight: 300 !important;
+	 font-size: 20px !important;
+	 color: black;
+   font-weight: 300 !important;
 }
 
 .post-categories {
-  margin-left: 10px;
+   margin-left: 5px !important;
 }
 
 .post-category {
-  font-size: 65% !important;
-  margin-bottom: 5px;
+   font-size: 7px !important;
+   margin-bottom: 0px;
+   font-weight: 600 !important;
+   background: #f6f6f6 !important;
+   border-radius: 1px !important;
 }
 
 .post-meta {
-	font-size: 13px;
-	color: light grey;
-	line-height: 1.5;
+	 font-size: 13px !important;
+	 color: light grey;
+	 line-height: 1.5;
 }
 
 .postMeta-module {
-  margin-right: 10px;
+   margin-right: 10px;
 }
 
 .post-admin-stats {
-  font-size: 11px;
+   font-size: 11px !important;
 }
 
-.points {
-	margin-right: 4px;
+.post-domain {
+   font-size: 12px !important;
+   margin-left: 5px !important;
 }
 
-.unit {
-	margin-right: 4px;
+.post-discuss {
+   font-size: 12.5px !important;
+   .icon-comment {
+     font-size: 12px !important;
+     margin-top: 5px !important;
+   }
+   .action-count {
+    position: static !important;
+    margin-top: -5px !important;
+   }
 }
 
 .post-time {
-  margin-right: 4px;
+   margin-right: 4px;
 }
 
 .comments-link {
-  font-weight: normal !important;
-}
-
-
-// -------------------------------- Category Titles ans Description --------------------------------- //
-
-
-.category-parents {
-  font-size: 60% !important;
-}
-
-
-.category-description {
-  font-size: 130% !important;
-}
-
-
-.main-category-title {
-  font-size: 60% !important;
+   font-weight: normal !important;
 }
 
 
@@ -216,7 +245,132 @@
   div{
     background:url("http://storyfeed.co/system_images/loading-storyfeed.gif") center center no-repeat;
     width: 40px;
-    height: 35px;
+    height: 40px;
     margin: 10px 0;    
   }
 }
+
+
+
+// -------------------------------- MAIN STRUCTURE ---------------------- //
+// ---------------------------------------------------------------------- //
+// ----------------------- New changes testing to main body ------------- //
+
+
+.header {
+  height: 43px !important;
+   .logo {
+     order: 1 !important;
+     justify-content: flex-start !important;
+     text-align: flex-start !important;
+     align-items: flex-start !important;
+     max-width: 140px !important;
+    }
+     .logo-image {
+        line-height: 1;
+        height: 105% !important;
+      }
+     @media screen and (max-width: 600px) {
+      .logo {
+       max-width: 600px !important;
+       justify-content: center !important;
+       text-align: center !important;
+       align-items: center !important;
+      }  
+   }
+}
+
+.search{
+  order: 2 !important;
+}
+
+
+.search-field {
+  font-size: 12px !important;
+  width: 350% !important;
+  max-width: 500px !important;
+  border-radius: 5px !important;
+}
+@media screen and (max-width: 600px) {
+  .search-field {
+   font-size: 13px !important;
+   width: 100% !important;
+   max-width: 190px !important;
+   border-radius: 5px !important;
+ }
+}
+
+
+.content-wrapper{
+  max-width: 870px !important;
+  margin-top: 0px;
+  margin-right: 32% !important;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+@media screen and (max-width: 600px) {
+  .content-wrapper{
+  max-width: 1200px !important;
+  margin-top: 0px;
+  margin-right: auto !important;
+  margin-bottom: 0px;
+  margin-left: auto !important;
+  }
+}
+
+
+.btn {
+  font-size: 12.5px !important;
+  padding-top: 9px !important;
+  padding-right: 10px !important;
+  padding-bottom: 9px !important;
+  padding-left: 10px !important;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 11px !important;
+}
+
+
+
+// ------------- Menu Components --------------- //
+
+.menu-component {
+  text-align: left !important;
+  font-size: 13px !important;
+}
+
+
+
+// ----------- Layout Css for New Side Bar --------------- //
+
+.side-bar {
+  position: fixed;
+  background: white;
+  border-radius: 3px;
+  min-width: 300px !important;
+  min-height: 50px !important;
+  margin-top: 0px;
+  margin-left: 68% !important;
+  z-index: 1;
+}
+@media screen and (max-width: 600px) {
+ .side-bar {
+   position: fixed;
+   display: none;
+  }
+}
+
+
+.categories-side-bar {
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+
+
+// ---------------  testing -------------------- //
+
