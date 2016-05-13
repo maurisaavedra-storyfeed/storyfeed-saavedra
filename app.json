@@ -1,0 +1,33 @@
+{
+  "name": "storyfeed-saavedra-review",
+  "description": "Review Apps for StoryFeed",
+  "scripts": {
+  },
+  "env": {
+    "BUILDPACK_URL": {
+      "required": true
+    },
+    "MAIL_URL": {
+      "required": true
+    },
+    "MONGOLAB_URI": {
+      "required": true
+    },
+    "ROOT_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/AdmitHub/meteor-buildpack-horse.git"
+    }
+  ]
+}
