@@ -1,6 +1,6 @@
 {
   "top" : "Top Stories",
-  "best": "All Time Best",
+  "best": "Most Voted",
   "new" : "New Stories",
   "post" : "Share a Story",
   "body" : "Summary",
@@ -13,7 +13,14 @@
   "submitted_posts" : "Stories Shared",
   "upvoted_posts" : "Upvoted Stories",
   "downvoted_posts" : "Downvoted Stories",
-
+  "instagramUsername" : "Instagram",
+  "twitterUsername" : "Twitter",
+  "location" : "Location",
+  "global" : "Global",
+  "topic" : "Topic",
+  "alltopics" : "All Topics",
+  "source" : "Source",
+  "allsources" : "All Sources",
 
 
   "discuss_story" : "Discuss",
@@ -22,19 +29,24 @@
 
   "share_post" : "Share:",
 
-  //custom_post_submit.hmtl//
-
+  //// CUSTOM POST SUBMIT HTML ////
   "stories_come_from_anywhere" : "Stories come from anywhere.",
   "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible" : "Remember to categorize your story in the most specific and correct way possible,",
   "country_city_source_and_topic_of_the_story" : "the country or city, the source and the topic of the story.",
   "stories_correctly_categorized_get_more_upvotes" : "Stories correctly categorized get more upvotes. Good Luck!",
-   
-   //hello.hmtl//
+  //// END ////
 
+  ////// HELLO HTML  /////
   "welcome" : "Welcome ",
   "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "This is a community of people who love to share and discover stories.",
   "have_a_great_story_share_it_with_the_entire_world" : "Have a great story? Share it with the entire world!",
-  
+  ////// end /////
+
+  //////FOOTER/////
+  "company_terms" : "Terms",
+  "company_privacy" : "Privacy",
+  "company_about_product" : "About",
+  ////// END //////
 
 
   "telescope_has_been_updated" : "The system has been updated.",
