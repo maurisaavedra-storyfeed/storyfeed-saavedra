@@ -1,3 +1,2 @@
-# Storyfeed V2.0
-New version of Storyfeed
-Storyfeed Saavedra
+# Storyfeed V2.5
+New version of Storyfeed - Saavedra
