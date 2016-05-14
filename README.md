@@ -1,2 +1,2 @@
-# Storyfeed V2.5
-New version of Storyfeed - Saavedra
+# Storyfeed V2.8
+New version of Storyfeed - Saavedra with packages folder
