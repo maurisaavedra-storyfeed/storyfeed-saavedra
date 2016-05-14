@@ -18,8 +18,11 @@
   "location" : "Locación",
   "global" : "Global",
   "topic" : "Tema",
-  "alltopics" : "Todos los Temas",
   "source" : "Fuente",
+  "pick_location" : "Elige la ubicación",
+  "pick_topic" : "Elige el tema",
+  "pick_source" : "Elige la fuente",
+  "alltopics" : "Todos los Temas",
   "allsources" : "Todas las Fuentes",
 
 
