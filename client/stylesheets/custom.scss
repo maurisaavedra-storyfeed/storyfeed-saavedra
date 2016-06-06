@@ -368,6 +368,8 @@
   padding: 10px;
   position: relative;
   width: 100%;
+  overflow-y: scroll !important;
+  max-height: 220px !important;
 }
 
 

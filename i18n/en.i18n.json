@@ -18,8 +18,11 @@
   "location" : "Location",
   "global" : "Global",
   "topic" : "Topic",
-  "alltopics" : "All Topics",
   "source" : "Source",
+  "pick_location" : "Choose the location",
+  "pick_topic" : "Choose the topic",
+  "pick_source" : "Choose the source",
+  "alltopics" : "All Topics",
   "allsources" : "All Sources",
 
 
