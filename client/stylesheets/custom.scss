@@ -12,6 +12,9 @@
 
 // -------------------------------- Custom Hero Banner Components --------------------------------- //
 
+.hero {
+  padding-top: 50px;
+}
 .custom-hero-banner {
   text-align: center;
   font-size: 14px;
@@ -23,17 +26,12 @@
   box-sizing: border-box;
   text-decoration: none;
   background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_world.png');
-  background-repeat: no-repeat;
   background-position: center;
 }
 
 @media screen and (max-width: 600px) {
   .custom-hero-banner {
     visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
     display: none;
   }
 }
@@ -60,12 +58,7 @@
 
 @media screen and (max-width: 600px) {
   .custom-info-banner {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
+    background-image: url('http://storyfeed.co/system_images/storyfeed_banner_info-1.jpg') !important;
   }
 }
 
@@ -230,6 +223,78 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .post-heading {
+   margin-bottom: 3px;
+   line-height: 1.2;
+   .post-title {
+     display: inline;
+     margin-bottom: 0px;
+   }
+   .post-domain {
+     color: lightest-grey;
+     font-weight: normal;
+   }
+  }
+
+  .post-title {
+    font-size: 18px !important;
+    color: black;
+    font-weight: 300 !important;
+  }
+
+  .post-categories {
+    margin-left: 0px !important;
+  }
+
+  .post-category {
+    font-size: 6px !important;
+    margin-bottom: 0px;
+    font-weight: 600 !important;
+    background: #f6f6f6 !important;
+    border-radius: 1px !important;
+  }
+
+  .post-meta {
+    font-size: 10.5px !important;
+    color: light grey;
+    line-height: 1.5;
+  }
+
+  .postMeta-module {
+    margin-right: 8px;
+  }
+
+  .post-admin-stats {
+    font-size: 8px !important;
+  }
+
+  .post-domain {
+    font-size: 10px !important;
+    margin-left: 5px !important;
+  }
+
+ .post-discuss {
+   font-size: 12.5px !important;
+    .icon-comment {
+      font-size: 12px !important;
+      margin-top: 5px !important;
+    }
+    .action-count {
+     position: static !important;
+     margin-top: -5px !important;
+    }
+ }
+
+ .post-time {
+    margin-right: 0px;
+ }
+
+ .comments-link {
+    font-weight: normal !important;
+ }
+}
+
 
 // -------------------------------- Custom app loader --------------------------------- //
 
@@ -237,16 +302,14 @@
   height: 100vh;
 }
 .loader{
-  min-height: 70px;
+  min-height: 23px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   div{
-    background:url("http://storyfeed.co/system_images/loading-storyfeed.gif") center center no-repeat;
-    width: 40px;
-    height: 40px;
-    margin: 10px 0;    
+    background:url("http://storyfeed.co/system_images/ajax-loader.gif") center center no-repeat;
+    background-size: 23px 23px;    
   }
 }
 
@@ -258,6 +321,9 @@
 
 
 .header {
+  position: fixed !important;
+  width: 100%;
+  z-index: 10000;
   height: 43px !important;
    .logo {
      order: 1 !important;
@@ -303,7 +369,7 @@
 
 .content-wrapper{
   max-width: 870px !important;
-  margin-top: 0px;
+  padding-top: 0px;
   margin-right: 32% !important;
   margin-bottom: 0px;
   margin-left: auto;
@@ -328,20 +394,58 @@
 }
 
 
-.footer {
+.custom-footer-code {
     text-align: center;
-    font-size: 11px !important;
+    font-size: 10px !important;
+    color: #d4d2d2;
+    text-decoration: none !important;
 }
 
 
 
-// ------------- Menu Components --------------- //
+
+// ------------- Menu Components and Views Menu --------------- //
 
 .menu-component {
-  text-align: left !important;
   font-size: 13px !important;
 }
 
+
+// ------------------------------------ posts views nav ------------------------------------ //
+.views-menu-wrapper-2{
+  text-align: center !important;
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  .menu-label-wrapper, .menu-items, .menu-item{
+    display: inline-block;
+  }
+  .menu-label-wrapper{
+    margin-right: 10px;
+    &:after{
+      content: ": ";
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .menu-label-wrapper{
+     display: none;
+    }
+  }  
+  .menu-item{
+    padding: 0;
+    margin: 0 10px 0 0;
+    .menu-item-label-text{
+      display: inline-block;
+    }
+    .menu-item-label-description{
+      display: none;
+    }
+  }
+  .menu-description{
+    display: none;
+  }
+}
 
 
 // ----------- Layout Css for New Side Bar --------------- //
@@ -358,18 +462,48 @@
 }
 @media screen and (max-width: 600px) {
  .side-bar {
-   position: fixed;
    display: none;
   }
 }
 
-
-.categories-side-bar {
-  padding: 10px;
+.categories-side-bar-0 {
+  margin-top: 5px;
+  padding: 6px;
   position: relative;
   width: 100%;
   overflow-y: scroll !important;
-  max-height: 220px !important;
+  max-height: 110px !important;
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+
+.categories-side-bar-1 {
+  margin-top: 6px;
+  padding: 7px;
+  position: relative;
+  width: 100%;
+  overflow-y: scroll !important;
+  max-height: 180px !important;
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+
+.categories-side-bar-2 {
+  margin-top: 6px;
+  padding: 7px;
+  position: relative;
+  width: 100%;
+  overflow-y: scroll !important;
+  max-height: 200px !important;
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+
+.categories-side-bar-3 {
+  margin-top: 6px;
+  padding: 7px;
+  position: relative;
+  width: 100%;
+  overflow-y: scroll !important;
+  max-height: 100px !important;
+  border-bottom: 1px solid #e1e1e1 !important;
 }
 
 

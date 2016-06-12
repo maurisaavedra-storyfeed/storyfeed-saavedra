@@ -12,10 +12,6 @@
   top: -2px;
 }
 
-.post-categories{
-  display: inline;
-}
-
 .categories-list{
   .form-module{
     background: #eee;
@@ -177,6 +173,7 @@
  }
  .category-parents-title {
    font-size: 40% !important;
+   display: none;
  }
  .category-description {
    font-size: 50% !important;

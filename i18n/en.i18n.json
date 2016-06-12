@@ -1,4 +1,5 @@
 {
+  "this_link_has_already_been_posted" : "Sorry, this link has already been posted, try sharing a new story.",
   "top" : "Top Stories",
   "best": "Most Voted",
   "new" : "New Stories",
@@ -15,25 +16,31 @@
   "downvoted_posts" : "Downvoted Stories",
   "instagramUsername" : "Instagram",
   "twitterUsername" : "Twitter",
+  "suggestions" : "Suggestions",
   "location" : "Location",
   "global" : "Global",
   "topic" : "Topic",
   "source" : "Source",
-  "pick_location" : "Choose the location",
+  "pick_suggested" : "Suggested location",
   "pick_topic" : "Choose the topic",
   "pick_source" : "Choose the source",
+  "pick_other_location" : "Your story belongs somewhere else?",
   "alltopics" : "All Topics",
   "allsources" : "All Sources",
 
+  //Notifications
+  "thanks_your_post_is_awaiting_approval" : "Thank you, your story is pending approval. StoryFeed approves all stories except spam. Stories usually get approved within minutes, you will be notified by email.",
+  "please_help_me_with_a_vote" : "Please help me with a vote",
+  "congrats" : "Congrats! 🎉 ",
+ 
 
   "discuss_story" : "Discuss",
   
-  "share_with_friends_so_help_you_vote" : "Share with your friends so they can help you vote!",
+  "share_with_friends_so_help_you_vote" : "Share your story with your friends so they can help you vote!",
 
   "share_post" : "Share:",
 
   //// CUSTOM POST SUBMIT HTML ////
-  "stories_come_from_anywhere" : "Stories come from anywhere.",
   "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible" : "Remember to categorize your story in the most specific and correct way possible,",
   "country_city_source_and_topic_of_the_story" : "the country or city, the source and the topic of the story.",
   "stories_correctly_categorized_get_more_upvotes" : "Stories correctly categorized get more upvotes. Good Luck!",
@@ -41,7 +48,7 @@
 
   ////// HELLO HTML  /////
   "welcome" : "Welcome ",
-  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "This is a community of people who love to share and discover stories.",
+  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Here you can share your stories with your entire city and country.",
   "have_a_great_story_share_it_with_the_entire_world" : "Have a great story? Share it with the entire world!",
   ////// end /////
 

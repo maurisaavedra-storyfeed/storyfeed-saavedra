@@ -1,20 +1,40 @@
 <head>
   
-  <title>StoryFeed - Share a Story With the World.</title>
+  <title>StoryFeed - Democracy for Cities and Countries</title>
 
-  <meta name="description" content="Storyfeed lets you share your stories with the entire world.">
+  <meta name="description" content="StoryFeed is an app that lets you share your stories with your entire city, country and the world. And vote for what's most important.">
   <meta name="keywords" content="social, news, app, new">
 
-  <!-- Start Geo Location Script -->
-  <script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=13172'></script>
-  <!-- End -->
 
-<!-- Start Geoplugin.com Location UnitedStates -->
-  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
-  <!-- End -->
+<!--//////////////// GEOLOCATION //////////////// -->
+
+<!-- change the variables in /packages/telescope-tags/lib/client/templates/autoform_category.js-->
+  <script language="JavaScript" src="https://ssl.geoplugin.net/javascript.gp?k=3ad5809aef226b92" type="text/javascript"></script>
+
+  <script language="Javascript" src="//gd.geobytes.com/gd?after=-1&amp;variables=GeobytesCity,sGeobytesCapital,GeobytesCountry" type="text/javascript"></script>
 
 
-  <!-- chat with users with Nudgespot -->
-  <script type="text/javascript">(function(d,n){var s,a,p;s=document.createElement("script");s.type="text/javascript";s.async=true;s.src=(document.location.protocol==="https:"?"https:":"http:")+"//cdn.nudgespot.com"+"/nudgespot.js";a=document.getElementsByTagName("script");p=a[a.length-1];p.parentNode.insertBefore(s,p.nextSibling);window.nudgespot=n;n.init=function(t){function f(n,m){var a=m.split('.');2==a.length&&(n=n[a[0]],m=a[1]);n[m]=function(){n.push([m].concat(Array.prototype.slice.call(arguments,0)))}}n._version=0.1;n._globals=[t];n.people=n.people||[];n.params=n.params||[];m="track register unregister identify set_config people.delete people.create people.update people.create_property people.tag people.remove_Tag".split(" ");for(var i=0;i<m.length;i++)f(n,m[i])}})(document,window.nudgespot||[]);nudgespot.init("03ea124b5195f0bfd7e5fddf70a35f03");</script>
+<!-- Redirect to City and Country -->
+<script language="Javascript">
+if(typeof(sGeobytesCity)=="undefined"
+   ||typeof(sGeobytesCountry)=="undefined")
+{
+   // If something gone wrong with the variables set them to default value.
+   var sGeobytesCity="unknown";
+   var sGeobytesCountry="unknown";
+} 
+// Visitors from Buenos Aires go here
+if(sGeobytesCity=="Buenos Aires")
+{
+   window.open("http://www.storyfeed.co/?cat[0]=buenos-aires", "_self");
+}
+// Visitors from Argentina go here
+else if(sGeobytesCountry=="Argentina")
+{  
+   window.open("http://www.storyfeed.co/?cat[0]=argentina", "_self");
+}
+</script>
+<!--////////////// END GEOLOCATION //////////////// -->
+
 
 </head>
