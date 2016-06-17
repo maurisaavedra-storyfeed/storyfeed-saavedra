@@ -1,6 +1,7 @@
 <template name="afCategory_bootstrap3">
   <div class="category-input" {{this.atts}}>
-    {{_ "pick_location"}}
+    {{_ "pick_suggested"}} 
+    {{> afCategory_suggested_location_geoplugin}}
     {{> afCategory_location}}
     {{_ "pick_topic"}}
     {{> afCategory_topic}}
@@ -9,8 +10,8 @@
   </div>
 </template>
 
-<template name="afCategory_location">
-    {{> menuComponent menuName="categories" menuItems=menuItems menuType="collapsible"}}
+<template name="afCategory_suggested_location_geoplugin">
+    {{> menuComponent menuName="categories" menuItems=menuItems menuType="collapsible" expandLevel=expandLevel}}
 </template>
 
 <template name="afCategory_topic">
@@ -18,6 +19,10 @@
 </template>
 
 <template name="afCategory_source">
+    {{> menuComponent menuName="categories" menuItems=menuItems menuType="collapsible"}}
+</template>
+
+<template name="afCategory_location">
     {{> menuComponent menuName="categories" menuItems=menuItems menuType="collapsible"}}
 </template>
 

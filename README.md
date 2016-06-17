@@ -1,5 +1,10 @@
-# Storyfeed V2.8
+# Storyfeed V3.1
 New version of Storyfeed - Saavedra with Packages Folder
+
+Fixes and Improvements
+- With Geolocation working
+- New main header with geobytes redirection
+
 
 // DON'T MODIFY PACKAGES FOLDER
 // The only two documents we modified in packages folder are:

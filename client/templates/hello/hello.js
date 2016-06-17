@@ -7,7 +7,7 @@ Template.hello.helpers({
     }
   }
 });
-var sec = 15
+var sec = 30
 var timer = setInterval(function() { 
    $('#hideMsg span').text(sec--);
    if (sec == -1) {
