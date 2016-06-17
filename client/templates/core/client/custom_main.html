@@ -11,10 +11,15 @@
 <!-- change the variables in /packages/telescope-tags/lib/client/templates/autoform_category.js-->
   <script language="JavaScript" src="https://ssl.geoplugin.net/javascript.gp?k=3ad5809aef226b92" type="text/javascript"></script>
 
-  <script language="Javascript" src="//gd.geobytes.com/gd?after=-1&amp;variables=GeobytesCity,sGeobytesCapital,GeobytesCountry" type="text/javascript"></script>
+  <script language="Javascript" src="//gd.geobytes.com/gd?after=-1&amp;variables=GeobytesCity,GeobytesCapital,GeobytesCountry" type="text/javascript"></script>
 
+<!-- Redirect to City and Country 
+// Basic redirecting
+<script language="Javascript">
+window.document.location.hash = "?cat[0]=" + geoplugin_countryName();
+</script>
+-->
 
-<!-- Redirect to City and Country -->
 <script language="Javascript">
 if(typeof(sGeobytesCity)=="undefined"
    ||typeof(sGeobytesCountry)=="undefined")
@@ -23,18 +28,32 @@ if(typeof(sGeobytesCity)=="undefined"
    var sGeobytesCity="unknown";
    var sGeobytesCountry="unknown";
 } 
-// Visitors from Buenos Aires go here
-if(sGeobytesCity=="Buenos Aires")
+// Visitors from citygo here
+if(sGeobytesCity!="unknown")
 {
-   window.open("http://www.storyfeed.co/?cat[0]=buenos-aires", "_self");
+   window.document.location.hash = "?cat[0]=" + sGeobytesCity;
 }
-// Visitors from Argentina go here
-else if(sGeobytesCountry=="Argentina")
+// Visitors from country go here
+else if(sGeobytesCity=="unknown")
 {  
-   window.open("http://www.storyfeed.co/?cat[0]=argentina", "_self");
+   window.document.location.hash = "?cat[0]=" + geoplugin_countryName();
 }
 </script>
 <!--////////////// END GEOLOCATION //////////////// -->
 
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1199938066713971');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1199938066713971&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
 </head>
