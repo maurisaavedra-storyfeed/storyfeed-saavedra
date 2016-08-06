@@ -16,7 +16,7 @@
   "downvoted_posts" : "Downvoted Stories",
   "instagramUsername" : "Instagram",
   "twitterUsername" : "Twitter",
-  "suggestions" : "Suggestions",
+  "suggestions" : "Suggested Location",
   "location" : "Location",
   "global" : "Global",
   "topic" : "Topic",
@@ -27,6 +27,7 @@
   "pick_other_location" : "Your story belongs somewhere else?",
   "alltopics" : "All Topics",
   "allsources" : "All Sources",
+  "sorry_we_couldnt_find_any_posts" : "Sorry, no stories in this location, be the first one to share a story in your city or country!",
 
   //Notifications
   "thanks_your_post_is_awaiting_approval" : "Thank you, your story is pending approval. StoryFeed approves all stories except spam. Stories usually get approved within minutes, you will be notified by email.",
@@ -42,13 +43,13 @@
 
   //// CUSTOM POST SUBMIT HTML ////
   "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible" : "Remember to categorize your story in the most specific and correct way possible,",
-  "country_city_source_and_topic_of_the_story" : "the country or city, the source and the topic of the story.",
+  "country_city_source_and_topic_of_the_story" : "the country or city and the topic of the story.",
   "stories_correctly_categorized_get_more_upvotes" : "Stories correctly categorized get more upvotes. Good Luck!",
   //// END ////
 
   ////// HELLO HTML  /////
   "welcome" : "Welcome ",
-  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Here you can share your stories with your entire city and country.",
+  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Here you can share your stories with the entire world.",
   "have_a_great_story_share_it_with_the_entire_world" : "Have a great story? Share it with the entire world!",
   ////// end /////
 
