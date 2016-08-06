@@ -1,9 +1,10 @@
-# Storyfeed V3.1
+# Storyfeed V3.3.1
 New version of Storyfeed - Saavedra with Packages Folder
 
 Fixes and Improvements
-- With Geolocation working
+- New Geolocation and Georedirection working but turned off
 - New main header with geobytes redirection
+- Facebook Plugin
 
 
 // DON'T MODIFY PACKAGES FOLDER
