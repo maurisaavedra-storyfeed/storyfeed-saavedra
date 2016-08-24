@@ -1,5 +1,10 @@
-# Storyfeed V3.4.
-New version of Storyfeed - Saavedra with Packages Folder
+# Storyfeed V3.6.1
+New version of Storyfeed with images in google cloug - Saavedra with Packages Folder
+
+Fixed and Improvements 3.6.1
+- Meteor Version 1.4
+- Images pulled from Google Cloud now
+- Mobile version with imporvements for development like new menu and stuff.
 
 Fixed and Improvements 3.4
 - New Design
@@ -11,7 +16,8 @@ Fixes and Improvements 3.3
 
 
 // DON'T MODIFY PACKAGES FOLDER
-// The only three documents we modified in packages folder are:
+// The only four documents we modified in packages folder are:
+// storyfeed-saavedra/packages/telescope-posts/lib/menus.js  (starting in line 19 to add icon menu in mobile)
 // storyfeed-saavedra/packages/telescope-tags/lib/client/templates/autoform_category.js
 // storyfeed-saavedra/packages/telescope-tags/lib/client/templates/autoform_category.html (the two above we changed to set the tags in different categories and add geopluign into the categories)
 // storyfeed-saavedra/packages/telescope-comments/lib/comments.js (in this document we changed the line: 67 rows from 5 to 2 to minimize the size of the comments-submit box)
