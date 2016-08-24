@@ -7,7 +7,7 @@
 
 .body {
   background:#eee;
-  font-size: 13px !important;
+  font-size: 12px !important;
 }
 
 // -------------------------------- Custom Hero Banner Components --------------------------------- //
@@ -37,6 +37,15 @@
 }
 
 
+// -------------------------------- Custom textarea Comments --------------------------------- //
+
+form, .accounts-dialog{
+  
+  textarea{
+    min-height:20px;
+    line-height:1.4;
+  }
+}
 
 // -------------------------------- Custom Info Banner located in post a story Components --------------------------------- //
 
@@ -152,6 +161,10 @@
 // -------------------------------- Custom Post Content in posts page --------------------------------- //
 
 
+.posts {
+  margin-bottom: 0px !important;
+}
+
 .post-heading {
 	margin-bottom: 3px;
 	line-height: 1.2;
@@ -166,7 +179,7 @@
 }
 
 .post-title {
-	 font-size: 20px !important;
+	 font-size: 18px !important;
 	 color: black;
    font-weight: 300 !important;
 }
@@ -184,9 +197,13 @@
 }
 
 .post-meta {
-	 font-size: 13px !important;
+	 font-size: 12px !important;
 	 color: light grey;
-	 line-height: 1.5;
+	 line-height: 50% !important;
+}
+
+.post-body {
+  font-size: 13px !important;
 }
 
 .postMeta-module {
@@ -194,16 +211,16 @@
 }
 
 .post-admin-stats {
-   font-size: 11px !important;
+   font-size: 9px !important;
 }
 
 .post-domain {
-   font-size: 12px !important;
+   font-size: 11px !important;
    margin-left: 5px !important;
 }
 
 .post-discuss {
-   font-size: 12.5px !important;
+   font-size: 12px !important;
    .icon-comment {
      font-size: 12px !important;
      margin-top: 5px !important;
@@ -216,10 +233,19 @@
 
 .post-time {
    margin-right: 4px;
+   font-size: 11px;
 }
 
 .comments-link {
    font-weight: normal !important;
+}
+.comment-text {
+  p {
+   font-size: 13px !important;
+  }
+}
+h4 {
+  font-size: 14px !important;
 }
 
 
@@ -266,7 +292,7 @@
   }
 
   .post-admin-stats {
-    font-size: 8px !important;
+    font-size: 9px !important;
   }
 
   .post-domain {
@@ -368,9 +394,9 @@
 
 
 .content-wrapper{
-  max-width: 870px !important;
+  max-width: 750px !important;
   padding-top: 0px;
-  margin-right: 32% !important;
+  margin-right: 37% !important;
   margin-bottom: 0px;
   margin-left: auto;
 }
@@ -407,7 +433,7 @@
 // ------------- Menu Components and Views Menu --------------- //
 
 .menu-component {
-  font-size: 13px !important;
+  font-size: 12.5px !important;
 }
 
 
@@ -474,6 +500,14 @@
   overflow-y: scroll !important;
   max-height: 110px !important;
   border-bottom: 1px solid #e1e1e1 !important;
+   -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  transition:1s;
+}
+.categories-side-bar-0:hover {
+  background: #F7F7F7 !important;
 }
 
 .categories-side-bar-1 {
@@ -482,8 +516,16 @@
   position: relative;
   width: 100%;
   overflow-y: scroll !important;
-  max-height: 180px !important;
+  max-height: 275px !important;
   border-bottom: 1px solid #e1e1e1 !important;
+   -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  transition:1s;
+}
+.categories-side-bar-1:hover {
+  background: #F7F7F7 !important;
 }
 
 .categories-side-bar-2 {
@@ -494,16 +536,14 @@
   overflow-y: scroll !important;
   max-height: 200px !important;
   border-bottom: 1px solid #e1e1e1 !important;
+  -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  transition:1s;
 }
-
-.categories-side-bar-3 {
-  margin-top: 6px;
-  padding: 7px;
-  position: relative;
-  width: 100%;
-  overflow-y: scroll !important;
-  max-height: 100px !important;
-  border-bottom: 1px solid #e1e1e1 !important;
+.categories-side-bar-2:hover {
+  background: #F7F7F7 !important;
 }
 
 

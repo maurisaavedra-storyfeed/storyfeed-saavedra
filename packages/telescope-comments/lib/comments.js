@@ -64,7 +64,7 @@ Comments.schema = new SimpleSchema({
     max: 3000,
     editableBy: ["member", "admin"],
     autoform: {
-      rows: 5,
+      rows: 2,
       afFormGroup: {
         'formgroup-class': 'hide-label'
       }
