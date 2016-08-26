@@ -25,7 +25,7 @@
   padding: 10px;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_world.png');
+  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_world.jpg');
   background-position: center;
 }
 
@@ -461,6 +461,42 @@ h4 {
   .menu-item{
     padding: 0;
     margin: 0 10px 0 0;
+    .menu-item-label-text{
+      display: inline-block;
+    }
+    .menu-item-label-description{
+      display: none;
+    }
+  }
+  .menu-description{
+    display: none;
+  }
+}
+
+.views-menu-wrapper-3{
+  text-align: center !important;
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  .menu-label-wrapper, .menu-items, .menu-item{
+    display: inline-block;
+  }
+  .menu-label-wrapper{
+    margin-right: 0px;
+    &:after{
+      content: ": ";
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .menu-label-wrapper{
+     display: none;
+    }
+  }  
+  .menu-item{
+    padding: 0 15px 0 15px;
+    margin: 0 0 0 0;
+    font-size: 225% !important;
     .menu-item-label-text{
       display: inline-block;
     }
