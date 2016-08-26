@@ -22,6 +22,7 @@ telescope:kadira
 telescope:newsletter
 telescope:notifications
 telescope:pages
+telescope:prerender
 telescope:post-by-feed
 telescope:releases
 telescope:rss
