@@ -29,7 +29,6 @@ telescope:rss
 telescope:scoring
 telescope:search
 telescope:share
-telescope:spiderable
 telescope:subscribe-to-posts
 telescope:tagline-banner
 telescope:tags
