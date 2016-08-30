@@ -41,3 +41,4 @@ telescope:update-prompt
 # custom
 devian:detectlanguage
 tap:i18n-db
+meteorhacks:fast-render

@@ -28,6 +28,9 @@
   "alltopics" : "All Topics",
   "allsources" : "All Sources",
   "sorry_we_couldnt_find_any_posts" : "Sorry, no stories in this location, be the first one to share a story in your city or country!",
+  "discussion_page" : "DISCUSSION PAGE",
+  "got_to_article" : "(Go to link)",
+
 
   //Notifications
   "thanks_your_post_is_awaiting_approval" : "Thank you, your story is pending approval. StoryFeed approves all stories except spam. Stories usually get approved within minutes, you will be notified by email.",
