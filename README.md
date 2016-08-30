@@ -1,5 +1,8 @@
-# Storyfeed V3.6.1
-New version of Storyfeed with images in google cloug - Saavedra with Packages Folder
+# Storyfeed V3.6.2
+New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
+
+New and Improvements 3.6.2
+- Now with telescope:prerender package
 
 Fixed and Improvements 3.6.1
 - Meteor Version 1.4

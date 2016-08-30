@@ -22,13 +22,13 @@ telescope:kadira
 telescope:newsletter
 telescope:notifications
 telescope:pages
+telescope:prerender
 telescope:post-by-feed
 telescope:releases
 telescope:rss
 telescope:scoring
 telescope:search
 telescope:share
-telescope:spiderable
 telescope:subscribe-to-posts
 telescope:tagline-banner
 telescope:tags
