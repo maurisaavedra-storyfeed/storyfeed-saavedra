@@ -31,7 +31,7 @@ en =
   resetYourPassword: "Reset your password"
   setPassword: "Set Password"
   sign: "Sign"
-  signIn: "Sign In or Register to vote and share stories"
+  signIn: "Enter"
   signin: "sign in"
   signOut: "Sign Out"
   signUp: " "
