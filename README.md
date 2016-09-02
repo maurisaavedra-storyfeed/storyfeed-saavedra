@@ -1,6 +1,10 @@
-# Storyfeed V3.6.3
+# Storyfeed V3.6.4
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
 
+
+New and Improvements 3.6.4
+- Added a couple of packages like softwarerero:accounts-t9n and devian:detectlanguage to package folders.
+- Edited both files to work with make detect language with t9n and i18n.
 
 New and Improvements 3.6.3
 - Added "go to link" in posts domain
@@ -26,6 +30,8 @@ Fixes and Improvements 3.3
 
 // DON'T MODIFY PACKAGES FOLDER
 // The only four documents we modified in packages folder are:
+// storyfeed-saavedra/packages/meteor-accounts-t9n-master/t9n/en.coffee - es.coffee (we can change all in this folder)
+// storyfeed-saavedra/packages/Detect-language-master/detectlanguage.js  (starting in line 9 to add t9n capability)
 // storyfeed-saavedra/packages/telescope-posts/lib/menus.js  (starting in line 19 to add icon menu in mobile)
 // storyfeed-saavedra/packages/telescope-tags/lib/client/templates/autoform_category.js
 // storyfeed-saavedra/packages/telescope-tags/lib/client/templates/autoform_category.html (the two above we changed to set the tags in different categories and add geopluign into the categories)
