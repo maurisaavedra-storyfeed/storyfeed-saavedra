@@ -12,6 +12,10 @@
   top: -2px;
 }
 
+.post-categories{
+  display: block;
+}
+
 .categories-list{
   .form-module{
     background: #eee;
@@ -100,7 +104,7 @@
 // -------------------------------- Custom Category Image --------------------------------- //
 
 .category-image{
-  margin-top: -15px;
+  margin-top: 0px;
   width: 100%;
   min-width: 100px;
   max-width: 1170px;

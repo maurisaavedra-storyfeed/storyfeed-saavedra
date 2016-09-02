@@ -71,6 +71,29 @@ form, .accounts-dialog{
   }
 }
 
+// -------------------------------- Custom Discussion Title Banner located in post page --------------------------------- //
+
+
+.custom-title-grid {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 500;
+  color: #888;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .custom-title-grid {
+    background-color: none;
+  }
+}
 
 
 
@@ -184,15 +207,11 @@ form, .accounts-dialog{
    font-weight: 300 !important;
 }
 
-.post-categories {
-   margin-left: 5px !important;
-}
-
 .post-category {
    font-size: 7px !important;
    margin-bottom: 0px;
    font-weight: 600 !important;
-   background: #f6f6f6 !important;
+   background: #f8f8f8 !important;
    border-radius: 1px !important;
 }
 

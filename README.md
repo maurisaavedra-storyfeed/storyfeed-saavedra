@@ -1,5 +1,11 @@
-# Storyfeed V3.6.2
+# Storyfeed V3.6.3
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
+
+
+New and Improvements 3.6.3
+- Added "go to link" in posts domain
+- Added Discussion
+- Added Added Fast-render? (check if working)
 
 New and Improvements 3.6.2
 - Now with telescope:prerender package
