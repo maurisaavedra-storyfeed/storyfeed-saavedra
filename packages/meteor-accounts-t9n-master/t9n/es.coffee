@@ -31,7 +31,7 @@ es =
   resetYourPassword: "Resetear tu contraseña"
   setPassword: "Definir contraseña"
   sign: "Ingresar"
-  signIn: "Entrar"
+  signIn: "Ingresar"
   signin: "entrar"
   signOut: "Salir"
   signUp: " "
