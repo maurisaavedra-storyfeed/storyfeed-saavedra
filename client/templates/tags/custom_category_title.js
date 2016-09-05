@@ -18,3 +18,4 @@ Template.custom_category_title.helpers({
     return category && category.name;
   }
 });
+

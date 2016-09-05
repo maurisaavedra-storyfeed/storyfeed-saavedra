@@ -14,7 +14,7 @@ es =
   configure: "Disposición"
   createAccount: "Crear cuenta"
   currentPassword: "Contraseña actual"
-  dontHaveAnAccount: "Núnca compartiremos nada sin tu permiso."
+  dontHaveAnAccount: "* Núnca compartiremos nada sin tu permiso."
   email: "Email"
   emailAddress: "Dirección de email"
   emailResetLink: "Reiniciar email"

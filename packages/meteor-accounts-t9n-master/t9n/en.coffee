@@ -14,7 +14,7 @@ en =
   configure: "Configure"
   createAccount: "Create an Account"
   currentPassword: "Current Password"
-  dontHaveAnAccount: "We will never share anything without your permission."
+  dontHaveAnAccount: "* We will never share anything without your permission."
   email: "Email"
   emailAddress: "Email Address"
   emailResetLink: "Email Reset Link"

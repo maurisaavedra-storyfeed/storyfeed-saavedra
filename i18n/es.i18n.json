@@ -29,7 +29,8 @@
   "allsources" : "Todas las fuentes",
   "sorry_we_couldnt_find_any_posts" : "Lo sentimos, no hay historias en esta ubicación, sé el primero en compartir una historia en tu ciudad o tu país!",
   "discussion_page" : "DISCUSIÓN",
-  "go_to_article" : "(Ir a link)",
+  "go_to_article" : "(ir a link)",
+  "about_category_page" : "Acerca",
 
 
   //Notifications
@@ -52,7 +53,7 @@
 
   ////// HELLO HTML  /////
   "welcome" : "Bienvenido ",
-  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Acá puedes compartir tus historias con toda tu ciudad y el mundo.",
+  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Acá puedes compartir y votar por las historias más importantes de tu ciudad.",
   "have_a_great_story_share_it_with_the_entire_world" : "Tienes una buena historia? Compartela con toda tu ciudad y el mundo!",
   ////// END  /////
 

@@ -10,6 +10,31 @@
   font-size: 12px !important;
 }
 
+// -------------------------------- Hide and change in Embed Size at 290px ------------------------------------ //
+
+
+.top-nav{
+  .header{
+     @media screen and (max-width: 290px){
+     background-color: #c0c0c0;
+     }
+  }
+}
+
+.posts-list {
+  .post-actions{
+   @media screen and (max-width: 290px){
+    display: none !important;
+   }
+  }
+}
+
+.mobile-menu-button{
+  @media screen and (max-width: 290px){
+   display: none;
+  }
+}
+
 // -------------------------------- Custom Hero Banner Components --------------------------------- //
 
 .hero {
@@ -498,6 +523,9 @@ h4 {
   border-radius: 3px;
   padding: 10px;
   margin-bottom: 10px;
+  @media screen and (max-width: 290px){
+   display: none !important;
+  }
   .menu-label-wrapper, .menu-items, .menu-item{
     display: inline-block;
   }
@@ -603,5 +631,76 @@ h4 {
 
 
 
-// ---------------  testing -------------------- //
+// -------------- EMBED CODE ----------------- //
+
+
+.popup {
+  max-width: 100px;
+  margin-top: -15px;
+  font-weight: normal !important;
+  font-size: 10px;
+  color: #bababa;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  @media screen and (max-width: 600px) {
+  display: none !important;
+  }
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    height: 120px;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    margin-left: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.codebox {
+    border:1px solid black;
+    color:#333;
+    background-color:#fff;
+    overflow:auto;    
+    padding:10px;
+    max-height: 90px;
+    overflow: scroll;
+}
+.codebox code {
+    font-size:0.9em;
+}
+// -------------- END EMBED CODE -------------------- //
 

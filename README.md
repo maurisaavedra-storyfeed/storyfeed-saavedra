@@ -1,6 +1,11 @@
-# Storyfeed V3.6.4
+# Storyfeed V3.6.5
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
 
+
+New and Imporvements 3.6.5
+- Added Facebook, twitter, and about links in categories.
+- Added Embed in categories.
+- Added an Embed version of the site.
 
 New and Improvements 3.6.4
 - Added a couple of packages like softwarerero:accounts-t9n and devian:detectlanguage to package folders.
@@ -30,6 +35,7 @@ Fixes and Improvements 3.3
 
 // DON'T MODIFY PACKAGES FOLDER
 // The only four documents we modified in packages folder are:
+// storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_layout.scss (to change the background color when embed)
 // storyfeed-saavedra/packages/meteor-accounts-t9n-master/t9n/en.coffee - es.coffee (we can change all in this folder)
 // storyfeed-saavedra/packages/Detect-language-master/detectlanguage.js  (starting in line 9 to add t9n capability)
 // storyfeed-saavedra/packages/telescope-posts/lib/menus.js  (starting in line 19 to add icon menu in mobile)
