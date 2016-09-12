@@ -1,6 +1,10 @@
-# Storyfeed V3.6.5
+# Storyfeed V3.6.6
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
 
+New and Imporvements 3.6.6
+- Desavtivate Hero Banner
+- Added Announcements box above side Bar
+- Categories boxes sizes have been changed as well
 
 New and Imporvements 3.6.5
 - Added Facebook, twitter, and about links in categories.
