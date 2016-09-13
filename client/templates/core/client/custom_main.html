@@ -1,4 +1,4 @@
-<head>
+ <head>
   
   <title>StoryFeed - Democracy for Cities and Countries</title>
 
@@ -11,32 +11,29 @@
 <!-- change the variables in /packages/telescope-tags/lib/client/templates/autoform_category.js-->
   <script language="JavaScript" src="https://ssl.geoplugin.net/javascript.gp?k=3ad5809aef226b92" type="text/javascript"></script>
 
-
+<!--
   <script language="Javascript" src="//gd.geobytes.com/gd?after=-1&amp;variables=GeobytesCity,GeobytesCapital,GeobytesCountry" type="text/javascript"></script>
-
+-->
 
 <!-- Redirect to City and Country 
-// Basic redirecting
 <script language="Javascript">
 window.document.location.hash = "?cat[0]=" + geoplugin_countryName();
-</script>
+</script> 
 -->
-<!-- working redirection -->
+<!-- working redirection to city, region and country -->
 <script language="Javascript">
-if(typeof(sGeobytesCity)=="undefined"
-   ||typeof(sGeobytesCountry)=="undefined")
+if(typeof(geoplugin_region())=="undefined"
+    ||typeof(geoplugin_countryName())=="undefined")
 {
    // If something gone wrong with the variables set them to default value.
-   var sGeobytesCity="unknown";
-   var sGeobytesCountry="unknown";
 } 
 // Visitors from citygo here
-if(sGeobytesCity!="unknown")
+if(geoplugin_region()!="unknown")
 {
-   window.document.location.hash = "?cat[0]=" + sGeobytesCity;
+   window.document.location.hash = "?cat[0]=" + geoplugin_region();
 }
 // Visitors from country go here
-else if(sGeobytesCity=="unknown")
+else if(geoplugin_region()=="unknown")
 {  
    window.document.location.hash = "?cat[0]=" + geoplugin_countryName();
 }

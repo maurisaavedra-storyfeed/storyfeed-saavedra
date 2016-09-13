@@ -2,7 +2,8 @@
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
 
 New and Imporvements 3.6.6
-- Desavtivate Hero Banner
+- Desactivate Geobytes we are only working with geoplugin now, speed should be very improved.
+- Desactivate Hero Banner
 - Added Announcements box above side Bar
 - Categories boxes sizes have been changed as well
 
