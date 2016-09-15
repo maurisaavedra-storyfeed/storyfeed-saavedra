@@ -75,9 +75,6 @@ Template.afCategory_suggested_location_geoplugin.helpers({
   },
   geopluginContinentCode: function () { 
     return geoplugin_continentCode(); 
-  },
-  cityGeobytes: function () { 
-    return sGeobytesCity; 
   }
 });
 
@@ -91,7 +88,7 @@ Template.afCategory_suggested_location_geoplugin.helpers({
 
     selectedCategoriesIds = _.compact(prefilledCategoriesIds.concat(selectedCategoriesIds));
 
-    var menuItems = _.map(Categories.find({name: { $in: [ geoplugin_city(), sGeobytesCity, geoplugin_countryName() ] }}).fetch(), function (category) {
+    var menuItems = _.map(Categories.find({name: { $in: [ geoplugin_city(), geoplugin_region(), geoplugin_countryName() ] }}).fetch(), function (category) {
 
       var isSelected = _.contains(selectedCategoriesIds, category._id);
       return {
