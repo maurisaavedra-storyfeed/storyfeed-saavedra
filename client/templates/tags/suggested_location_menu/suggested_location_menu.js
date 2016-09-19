@@ -25,7 +25,7 @@ Meteor.startup(function () {
         template: "defaultMenuItem"
       }];
 
-      var menuItems = Categories.find({name: { $in: [ geoplugin_city(), sGeobytesCity, sGeobytesCapital, geoplugin_countryName() ] }}).fetch();
+      var menuItems = Categories.find({name: { $in: [ geoplugin_city(), geoplugin_region(), geoplugin_countryName() ] }}).fetch();
 
       menuItems = _.map(menuItems, function (category) {
 

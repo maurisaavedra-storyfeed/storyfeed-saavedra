@@ -1,6 +1,12 @@
-# Storyfeed V3.6.5
+# Storyfeed V3.6.6
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
 
+New and Imporvements 3.6.6
+- Without zooming in mobile
+- Desactivate Geobytes we are only working with geoplugin now, speed should be very improved.
+- Desactivate Hero Banner
+- Added Announcements box above side Bar
+- Categories boxes sizes have been changed as well
 
 New and Imporvements 3.6.5
 - Added Facebook, twitter, and about links in categories.
@@ -34,7 +40,7 @@ Fixes and Improvements 3.3
 
 
 // DON'T MODIFY PACKAGES FOLDER
-// The only four documents we modified in packages folder are:
+// The only documents we modified in packages folder are:
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_layout.scss (to change the background color when embed)
 // storyfeed-saavedra/packages/meteor-accounts-t9n-master/t9n/en.coffee - es.coffee (we can change all in this folder)
 // storyfeed-saavedra/packages/Detect-language-master/detectlanguage.js  (starting in line 9 to add t9n capability)

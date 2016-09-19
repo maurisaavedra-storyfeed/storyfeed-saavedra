@@ -9,7 +9,7 @@ Template.hello.helpers({
 });
 var sec = 30
 var timer = setInterval(function() { 
-   $('#hideMsg span').text(sec--);
+  $('#hideMsg span').text(sec--);
    if (sec == -1) {
       $('#hideMsg').slideUp('slow');
       clearInterval(timer);

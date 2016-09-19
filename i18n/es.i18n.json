@@ -16,7 +16,7 @@
   "downvoted_posts" : "Historias votadas en contra",
   "instagramUsername" : "Instagram",
   "twitterUsername" : "Twitter",
-  "suggestions" : "Ubicación Sugerida",
+  "suggestions" : "Ubicaciones Sugeridas",
   "location" : "Locación",
   "global" : "Global",
   "topic" : "Tema",
@@ -56,6 +56,11 @@
   "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Acá puedes compartir y votar por las historias más importantes de tu ciudad.",
   "have_a_great_story_share_it_with_the_entire_world" : "Tienes una buena historia? Compartela con toda tu ciudad y el mundo!",
   ////// END  /////
+
+  ////// ANNOUNCEMENTS /////
+  "announcement_1" : "Bienvenido a StoryFeed! Acá puedes compartir y votar por las historias más importantes de tu ciudad",
+  ////// END /////
+
 
   ////// FOOTER /////
   "company_terms" : "Terminos",
