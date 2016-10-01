@@ -50,9 +50,9 @@ Meteor.startup(function () {
     },
     expandLevel: function () {
       if (this.zone === "mobileNav") {
-        return 0;
-      } else {
         return 1;
+      } else {
+        return 0;
       }
     },
     menuType: function () {
