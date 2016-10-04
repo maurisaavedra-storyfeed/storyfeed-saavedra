@@ -157,5 +157,9 @@ $mobile-nav-width: 200px;
   text-align: center;
   width: 30px;
   z-index:100;
-  color: white;
+  background: none !important;
+  font-size: 16px;
+}
+a.mobile-menu-button {
+  color: white !important;
 }

@@ -142,7 +142,7 @@ form, .accounts-dialog{
 	align-items: center;
 	.post-admin-actions, .post-admin-stats{
 		border-radius: 0px;
-		margin-left: 10px;
+		margin-left: 0px;
 		margin-right: 3px;
 	}
 }
@@ -249,8 +249,10 @@ form, .accounts-dialog{
    font-size: 7px !important;
    margin-bottom: 0px;
    font-weight: 600 !important;
-   background: #f8f8f8 !important;
+   background: rgba(248, 248, 248, 0.25) !important;
    border-radius: 1px !important;
+   color: #939393 !important;
+   padding: 3px 2px 1px 2px;
 }
 
 .post-meta {
@@ -351,7 +353,7 @@ form, .accounts-dialog{
 }
 
 .post-time {
-   margin-right: 4px;
+   margin-right: 8px;
    font-size: 11px;
 }
 
@@ -393,11 +395,13 @@ h4 {
   }
 
   .post-category {
-    font-size: 6px !important;
-    margin-bottom: 0px;
-    font-weight: 600 !important;
-    background: #f6f6f6 !important;
-    border-radius: 1px !important;
+   font-size: 7px !important;
+   margin-bottom: 0px;
+   font-weight: 600 !important;
+   background: rgba(248, 248, 248, 0.25) !important;
+   border-radius: 1px !important;
+   color: #939393 !important;
+   padding: 3px 2px 1px 2px;
   }
 
   .post-meta {
@@ -431,8 +435,15 @@ h4 {
     }
  }
 
+ .post-actions {
+    font-size: 16px !important;
+    .icon {
+     color: #9da7ab !important;
+    }
+ }
+
  .post-time {
-    margin-right: 0px;
+    margin-right: 8px;
  }
 
  .comments-link {
