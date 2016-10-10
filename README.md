@@ -54,6 +54,7 @@ Fixes and Improvements 3.3
 
 // DON'T MODIFY PACKAGES FOLDER
 // The only documents we modified in packages folder are:
+// storyfeed-saavedra/packages/telescope-rss/lib/server/rss.js  (starting in line 11 we added custom_namespaces, removed discuss link in description in line 28 and added media content in line 40)
 // storyfeed-saavedra/packages/telescope-rss/lib/server/routes.js  (starting in line 20 we added two new Picker.route to get top and best rss from categories)
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_mobile_nav.scss (starting in line 160 to change background and color of bottom)
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_mobile_nav.scss (starting in line 42 to change the speed of the animation when opening the mobile menu)

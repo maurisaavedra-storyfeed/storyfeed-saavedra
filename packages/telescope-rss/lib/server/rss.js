@@ -25,7 +25,7 @@ servePostRSS = function (terms, url) {
     var description = !!post.body ? post.body+'</br></br>' : '';
     var feedItem = {
       title: post.title,
-      description: description + '<a href="' + post.getPageUrl(true) + '">Discuss</a>',
+      description: description,
       author: post.author,
       date: post.postedAt,
       guid: post._id,
