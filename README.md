@@ -3,6 +3,7 @@ New version of Storyfeed with images in google cloud - Saavedra with Packages Fo
 
 New and improvements in 3.7.3
 - New Rss for categories working for the mailchimp newsletter.
+- Added Media:Content for showing images in mailchimp.
 
 New and improvements in 3.7.1
 - Another bottom desing in mobile.

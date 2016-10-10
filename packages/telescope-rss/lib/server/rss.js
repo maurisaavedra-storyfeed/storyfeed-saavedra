@@ -7,7 +7,10 @@ getMeta = function (url) {
     description: Settings.get('tagline'),
     feed_url: siteUrl+url,
     site_url: siteUrl,
-    image_url: siteUrl+'img/favicon.png'
+    image_url: siteUrl+'img/favicon.png',
+    custom_namespaces: {
+      'media': 'http://search.yahoo.com/mrss/'
+    },
   };
 };
 
@@ -31,7 +34,17 @@ servePostRSS = function (terms, url) {
 
     if (post.thumbnailUrl) {
       var url = Telescope.utils.addHttp(post.thumbnailUrl);
-      feedItem.custom_elements = [{"imageUrl":url}, {"content": url}];
+      feedItem.custom_elements = [
+        {"imageUrl":url}, 
+        {"content": url},
+        {"media:content": {
+          _attr: {
+            url: url,
+            type: "image/jpg",
+            width: "300",
+          }
+        }}, 
+      ];
     }
 
     feed.item(feedItem);
