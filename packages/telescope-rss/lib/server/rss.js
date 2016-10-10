@@ -41,7 +41,8 @@ servePostRSS = function (terms, url) {
           _attr: {
             url: url,
             type: "image/jpg",
-            width: "300",
+            width: "200",
+            height: "200",
           }
         }}, 
       ];
