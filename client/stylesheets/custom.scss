@@ -59,7 +59,7 @@
   padding: 10px;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url('http://storyfeed.co/system_images/storyfeed_banner_hero_world.jpg');
+  background-image: url('http://storyfeed.co/system_images/storyfeed_newsletter_join_1.png');
   background-position: center;
 }
 
@@ -376,11 +376,12 @@ h4 {
    line-height: 1.2;
    .post-title {
      display: inline;
-     margin-bottom: 0px;
+     margin-bottom: 0px !important;
    }
    .post-domain {
      color: lightest-grey;
      font-weight: normal;
+     margin-left: 0px !important;
    }
   }
 
@@ -391,7 +392,7 @@ h4 {
   }
 
   .post-categories {
-    margin-left: 0px !important;
+    display: none;
   }
 
   .post-category {
@@ -415,7 +416,7 @@ h4 {
   }
 
   .post-admin-stats {
-    font-size: 9px !important;
+    font-size: 7px !important;
   }
 
   .post-domain {
@@ -663,7 +664,7 @@ h4 {
 
 .announcement-side-bar {
   font-size: 13px;
-  background-image: url("http://storyfeed.co/system_images/storyfeed_banner_info-1.jpg");
+  background-image: url("http://storyfeed.co/system_images/small-banner-cities-2.jpg");
   max-width: 350px;
   margin-top: 0px;
   padding: 8px 14px 8px 11px;
@@ -672,7 +673,7 @@ h4 {
   overflow-y: scroll !important;
   max-height: 65px !important;
   border-bottom: 1px solid #e1e1e1 !important;
-  background-size: 126%;
+  background-size: 125%;
   background-repeat: no-repeat;
 }
 

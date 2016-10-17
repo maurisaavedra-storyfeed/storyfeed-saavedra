@@ -1,5 +1,9 @@
-# Storyfeed V3.7.3
+# Storyfeed V3.7.4
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
+
+New and improvements in 3.7.4
+- With hero banner promoting newsletter
+- with cleaner and more minimalistic design in Mobile version
 
 New and improvements in 3.7.3
 - New Rss for categories working for the mailchimp newsletter.
