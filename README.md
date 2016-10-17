@@ -1,5 +1,9 @@
-# Storyfeed V3.7.1
+# Storyfeed V3.7.3
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
+
+New and improvements in 3.7.3
+- New Rss for categories working for the mailchimp newsletter.
+- Added Media:Content for showing images in mailchimp.
 
 New and improvements in 3.7.1
 - Another bottom desing in mobile.
@@ -50,6 +54,8 @@ Fixes and Improvements 3.3
 
 // DON'T MODIFY PACKAGES FOLDER
 // The only documents we modified in packages folder are:
+// storyfeed-saavedra/packages/telescope-rss/lib/server/rss.js  (starting in line 11 we added custom_namespaces, removed discuss link in description in line 28 and added media content in line 40)
+// storyfeed-saavedra/packages/telescope-rss/lib/server/routes.js  (starting in line 20 we added two new Picker.route to get top and best rss from categories)
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_mobile_nav.scss (starting in line 160 to change background and color of bottom)
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_mobile_nav.scss (starting in line 42 to change the speed of the animation when opening the mobile menu)
 // storyfeed-saavedra/packages/telescope-theme-base/lib/client/scss/specific/_layout.scss (to change the background color when embed)

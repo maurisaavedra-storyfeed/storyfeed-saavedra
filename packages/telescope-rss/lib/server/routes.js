@@ -17,8 +17,16 @@ Picker.route('/rss/posts/best.xml', function(params, req, res, next) {
   res.end(servePostRSS({view: 'best'}, '/rss/posts/best.xml'));
 });
 
-Picker.route('/rss/category/:slug/feed.xml', function(params, req, res, next) {
-  res.end(servePostRSS({view: 'new', cat: params.slug}, '/rss/category/:slug/feed.xml'));
+Picker.route('/rss/category/new/:slug/feed.xml', function(params, req, res, next) {
+  res.end(servePostRSS({view: 'new', cat: params.slug}, '/rss/category/new/:slug/feed.xml'));
+});
+
+Picker.route('/rss/category/top/:slug/feed.xml', function(params, req, res, next) {
+  res.end(servePostRSS({view: 'top', cat: params.slug}, '/rss/category/top/:slug/feed.xml'));
+});
+
+Picker.route('/rss/category/best/:slug/feed.xml', function(params, req, res, next) {
+  res.end(servePostRSS({view: 'best', cat: params.slug}, '/rss/category/best/:slug/feed.xml'));
 });
 
 Picker.route('/rss/comments.xml', function(params, req, res, next) {
