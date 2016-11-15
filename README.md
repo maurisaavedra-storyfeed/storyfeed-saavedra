@@ -1,5 +1,8 @@
-# Storyfeed V3.7.4
+# Storyfeed V3.7.5
 New version of Storyfeed with images in google cloud - Saavedra with Packages Folder
+
+New and Improvements in 3.7.5
+- Small Fixes in design and Newsletter Banner
 
 New and improvements in 3.7.4
 - With hero banner promoting newsletter
