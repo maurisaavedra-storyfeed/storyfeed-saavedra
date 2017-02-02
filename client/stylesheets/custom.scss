@@ -59,7 +59,7 @@
   padding: 10px;
   box-sizing: border-box;
   text-decoration: none;
-  background-image: url('http://storyfeed.co/system_images/storyfeed_newsletter_join_1.png');
+  background-color: #f0e4e4;
   background-position: center;
 }
 
@@ -664,6 +664,7 @@ h4 {
 
 .announcement-side-bar {
   font-size: 13px;
+  font-weight: 600 !important;
   background-image: url("http://storyfeed.co/system_images/small-banner-cities-2.jpg");
   max-width: 350px;
   margin-top: 0px;
@@ -733,6 +734,20 @@ h4 {
 .categories-side-bar-2:hover {
   background: #F7F7F7 !important;
 }
+
+
+.menu-collapsible .menu-items, .menu-collapsible .menu-child-items {
+  border-left: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu-list .item-active .menu-item-label-text:after, .menu-dropdown .item-active .menu-item-label-text:after, .menu-collapsible .item-active .menu-item-label-text:after {
+  border-bottom: 1px solid currentColor !important;
+  width: 100% !important;
+  bottom: -1px !important;
+  opacity: 0.1 !important;
+}
+
+
 
 
 
